@@ -8,13 +8,18 @@ Cyber Trainer is a stationary intelligent system designed to monitor physical ex
 
 ## ✨ Key Features
 **Dual-Camera Analysis:** Utilizes a front and a side camera to achieve high-precision skeletal tracking.
+
 **Voice Interface:** Interaction is driven by voice commands, allowing the trainee to stay focused on the exercise without looking at a screen.
+
 **Real-time Correction:** Provides immediate feedback on form and tempo.
+
 **Post-Session Review:** Users can review their performance on a screen after completing a set to see their movements visualized with skeletal overlays.
 
 ## 🛠 Tech Stack
 **Language:** Python.
+
 **Computer Vision:** OpenCV, MediaPipe.
+
 **Audio & Voice:** Speech_recognition.
 
 ## 🏗 System Setup
