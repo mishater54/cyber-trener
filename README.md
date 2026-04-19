@@ -4,24 +4,24 @@ EN: An intelligent stationary system for monitoring the execution of complex phy
 PL: Stacjonarny system nadzorujący poprawność wykonywania ćwiczeń fizycznych z wykorzystaniem wizji komputerowej i interfejsu głosowego.
 
 ## Project Overview
-[cite_start]Cyber Trainer is a stationary intelligent system designed to monitor physical exercises with higher precision than wearable devices[cite: 2, 5]. [cite_start]While smartwatches can count repetitions, they cannot verify if a movement is performed correctly[cite: 5]. [cite_start]This system uses computer vision to detect improper positioning and imprecise movements that could lead to injury or spinal curvature[cite: 4].
+Cyber Trainer is a stationary intelligent system designed to monitor physical exercises with higher precision than wearable devices. While smartwatches can count repetitions, they cannot verify if a movement is performed correctly. This system uses computer vision to detect improper positioning and imprecise movements that could lead to injury or spinal curvature.
 
 ## ✨ Key Features
-* [cite_start]**Dual-Camera Analysis:** Utilizes a front and a side camera to achieve high-precision skeletal tracking[cite: 6, 7, 8].
-* [cite_start]**Voice Interface:** Interaction is driven by voice commands, allowing the trainee to stay focused on the exercise without looking at a screen[cite: 22, 23].
-* [cite_start]**Real-time Correction:** Provides immediate feedback on form and tempo[cite: 3].
-* [cite_start]**Post-Session Review:** Users can review their performance on a screen after completing a set to see their movements visualized with skeletal overlays[cite: 23].
+**Dual-Camera Analysis:** Utilizes a front and a side camera to achieve high-precision skeletal tracking.
+**Voice Interface:** Interaction is driven by voice commands, allowing the trainee to stay focused on the exercise without looking at a screen.
+**Real-time Correction:** Provides immediate feedback on form and tempo.
+**Post-Session Review:** Users can review their performance on a screen after completing a set to see their movements visualized with skeletal overlays.
 
 ## 🛠 Tech Stack
-* [cite_start]**Language:** Python [cite: 31]
-* [cite_start]**Computer Vision:** OpenCV, MediaPipe [cite: 31]
-* [cite_start]**Audio & Voice:** Speech_recognition [cite: 31]
+**Language:** Python.
+**Computer Vision:** OpenCV, MediaPipe.
+**Audio & Voice:** Speech_recognition.
 
 ## 🏗 System Setup
-[cite_start]The system is designed for a stationary laboratory or gym environment[cite: 21]:
-1. [cite_start]**Cameras:** Two smartphones mounted on tripods, configured for network video transmission.
-2. [cite_start]**Audio:** A portable microphone worn by the trainee[cite: 28].
-3. [cite_start]**Processing:** A laptop (optionally connected to a projector) running the core algorithms[cite: 29].
+The system is designed for a stationary laboratory or gym environment:
+1. **Cameras:** Two smartphones mounted on tripods, configured for network video transmission.
+2. **Audio:** A portable microphone worn by the trainee#.
+3. #**Processing:** A laptop (optionally connected to a projector) running the core algorithms.
 
 ## Installation & Usage
 *(This section will be updated as the project progresses)*
