@@ -1,11 +1,11 @@
-# --- База данных и окружение ---
+# --- Databases and Environment ---
 pyodbc==5.1.0
 python-dotenv==1.0.1
 
-# --- Веб-сервер и API ---
+# --- Web-Server and API ---
 
 
-# --- Компьютерное зрение и ИИ ---
+# --- Computer Vision and AI ---
 
 
-# --- Голосовой интерфейс ---
+# --- Voice Interface ---
