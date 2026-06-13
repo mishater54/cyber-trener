@@ -14,7 +14,3 @@ class HomePage(ctk.CTkFrame):
                                        height=50, font=("Roboto", 16, "bold"),
                                        fg_color="#00d4ff", text_color="black")
         self.start_btn.pack(pady=20, padx=40, fill="x")
-
-if __name__ == "__main__":
-    app = HomePage()
-    app.mainloop()

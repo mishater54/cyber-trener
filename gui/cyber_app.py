@@ -19,12 +19,12 @@ class CyberApp(ctk.CTk):
         ctk.CTkButton(self.sidebar, text="Records", command=lambda: self.switch_page("records"), corner_radius=20).pack(pady=10, padx=20, fill="x")
         ctk.CTkButton(self.sidebar, text="Stats", command=lambda: self.switch_page("stats"), corner_radius=20).pack(pady=10, padx=20, fill="x")
 
-        self.home_container = ctk.CTkFrame(self, corner_radius=15)
-        self.home_container.pack(side="right", expand=True, fill="both", padx=20, pady=20)
+        self.main_container = ctk.CTkFrame(self, corner_radius=15)
+        self.main_container.pack(side="right", expand=True, fill="both", padx=20, pady=20)
 
         self.pages = {
-            "home": HomePage(self.home_container),
-            
+            "home": HomePage(self.main_container),
+            "history": HistoryPage(self.main_container)
         }
         
         self.switch_page("home")
