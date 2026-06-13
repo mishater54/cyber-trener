@@ -7,3 +7,4 @@ venv/
 .idea/
 backend/.env
 *.env
+test.MOV
