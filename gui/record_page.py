@@ -20,9 +20,9 @@ class RecordsPage(ctk.CTkFrame):
             row = i // 2
             col = i % 2
             
-            card = ctk.CTkFrame(self.grid_frame, fg_color="#2b2b3b", corner_radius=15, width=250, height=120)
-            card.grid(row=row, column=col, padx=15, pady=15)
-            card.grid_propagate(False) # Prevents the card from shrinking to fit the text
+            card = ctk.CTkFrame(self.grid_frame, fg_color="#2b2b3b", corner_radius=15, width=400, height=160)
+            card.grid(row=row, column=col, padx=25, pady=25, sticky="ew")
+            card.grid_propagate(False)
             
             ctk.CTkLabel(card, text=title, font=("Roboto", 16), text_color="gray").pack(pady=(25, 5))
             ctk.CTkLabel(card, text=value, font=("Roboto", 28, "bold"), text_color="#00d4ff").pack()
